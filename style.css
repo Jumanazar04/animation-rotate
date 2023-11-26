@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    position: absolute ;
+}
+
+.hamburger {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 20px;
+    border-radius: 0 0 70% 0;
+}
+
+.btn{
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn img {
+    width: 40px;
+    height: auto;
+}
+
+.card {
+    max-width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    padding: 120px 100px;
+    transition: 1s;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+}
+
+.animation-rotate {
+    margin: 0 auto;
+    transform: translateX(110px);
+    transition: 1s;
+}
+
+body {
+    background-color: rgb(34, 31, 31);
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: start;
+    align-items: start;
+    transform: translateX(-100px);
+    padding: 5px;
+    transition: 1s;
+}
+
+.link {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.nav-btn {
+    background-color: transparent;
+    padding: 2px 6px;
+    border: 1px solid aliceblue;
+    border-radius: 7px;
+}
+
+.navbar-rotate{
+    transform: translateX(10px);
+    transition: 1s;
+}
